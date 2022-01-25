@@ -27,8 +27,14 @@ function iniciarSom(som) {
 }
 
 function iniciarComposicao(sonsArray) {
-    for(sonsItem of sonsArray) {
-        iniciarSom(`key${sonsItem}`);
+    let wait = 0;
+
+    for(let sonsItem of sonsArray) {
+        setTimeout(()=>{
+            iniciarSom(`key${sonsItem}`);
+        }, wait);
+
+        wait +=250;
+        
     }
 }
-
