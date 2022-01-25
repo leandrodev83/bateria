@@ -1,0 +1,1 @@
+Bateria, Projeto desenvolvido no curso de javascript, utilizando TEMPLATE STRING.
